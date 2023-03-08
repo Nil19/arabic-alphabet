@@ -1,5 +1,9 @@
 @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
+.Quiz__OptionButtons {
+    width: 12rem;
+    margin: auto;
+}
 .mode {
     width: 10rem;
 }
@@ -11,4 +15,48 @@
 
 .bi-arrow-repeat.upside-down::before {
     transform: scale(1.5) rotate(180deg);
+}
+
+.Quiz__StartButton {
+    width: 6rem;
+    margin: 40px;
+    font-size: 12px;
+    border: 2px solid rgb(30, 30, 30);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    background-color: white;
+    color: rgb(30, 30, 30);
+}
+.Quiz__StartButton:hover {
+    background-color: black;
+    color:white;
+}
+.Quiz__ButtonContinue {
+    width: 6rem;
+    margin: 40px;
+    font-size: 20px;
+    border: 2px solid rgb(30, 30, 30);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    background-color: white;
+    color:rgb(30, 30, 30);
+}
+.Quiz__ButtonContinue:hover {
+    background-color: black;
+    color:white;
+}
+
+.Quiz__ButtonSubmit {
+    width: 6rem;
+    margin: 40px;
+    font-size: 20px;
+    border: 2px solid rgb(30, 30, 30);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    background-color: white;
+    color: rgb(30, 30, 30);
+}
+.Quiz__ButtonSubmit:hover {
+    background-color: black;
+    color:white;
 }
